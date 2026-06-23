@@ -41,9 +41,10 @@ export default function Page() {
       </div>
 
       {/* Footer */}
-      <p className="absolute bottom-8 text-white/20 text-xs tracking-[0.3em] uppercase">
-        © 2025 Zectron Industries
-      </p>
+      <div className="absolute bottom-8 flex items-center gap-6 text-white/20 text-xs tracking-[0.3em] uppercase">
+        <span>© 2025 Zectron Industries</span>
+        <a href="/privacy" className="hover:text-white/50 transition-colors">Privacy Policy</a>
+      </div>
     </main>
   )
 }
