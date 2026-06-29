@@ -44,6 +44,7 @@ export default function Page() {
       <div className="absolute bottom-8 flex items-center gap-6 text-white/20 text-xs tracking-[0.3em] uppercase">
         <span>© 2025 Zectron Industries</span>
         <a href="/privacy" className="hover:text-white/50 transition-colors">Privacy Policy</a>
+        <a href="/contact" className="hover:text-white/50 transition-colors">Contact Us</a>
       </div>
     </main>
   )
