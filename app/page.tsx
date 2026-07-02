@@ -1,15 +1,12 @@
+import LogoMark from "./LogoMark"
+
 export default function Page() {
   return (
     <main className="min-h-screen bg-black text-white flex flex-col items-center justify-center px-6">
       <div className="max-w-2xl w-full text-center space-y-8">
 
         {/* Logo mark */}
-        <div className="flex justify-center mb-2">
-          <svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <rect width="56" height="56" fill="white" />
-            <path d="M10 18 H46 L32 28 L46 38 H10 L24 28 Z" fill="black" />
-          </svg>
-        </div>
+        <LogoMark />
 
         {/* Wordmark */}
         <div className="space-y-1">
