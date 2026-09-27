@@ -1,6 +1,6 @@
 # Zectron Industries
 
-Coming soon landing page for Zectron Industries.
+Coming soon landing page for Zectron Industries. Also my personal portfolio site.
 
 ## Stack
 
