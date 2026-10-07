@@ -14,3 +14,7 @@ No graphify graph exists for this repo yet.
 **Sonnet implementation:** Created `app/LogoMark.tsx` ("use client", ref-based click/timestamp tracking, 1.5s window, 5-click threshold, redirects to `https://www.instagram.com/rohtak_harith/`). Edited `app/page.tsx` to import and render `<LogoMark />` in place of the inline SVG.
 
 **Haiku review findings:** No issues found. Click-counting and window-reset logic confirmed correct (exactly 5 clicks required, no double-count on window reset), "use client" placement and server/client import pattern correct, no dead code. Ready to ship — loop ends after one iteration.
+
+## Feature: /portfolio proxy (2026-10-07)
+**Plan:** Portfolio is a separate repo/Railway service (HyperEndgame/portfolio, base `/portfolio/`). `next.config.ts` rewrites `/portfolio` and `/portfolio/:path*` to it.
+**Code:** `next.config.ts` rewrites only. See portfolio repo PIPELINE.md for the app itself.
